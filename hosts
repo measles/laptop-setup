@@ -1,0 +1,7 @@
+---
+
+all:
+  hosts:
+    localhost:
+      ansibel_become: true
+      ansible_connection: local

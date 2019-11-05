@@ -1,0 +1,65 @@
+---
+
+utils:
+  - mc
+  - baobab
+  - keepassx
+  - qml-module-qtquick-xmllistmodel # for the Weather Widget
+  - yakuake
+  - zim
+  - q4wine
+  - winetricks
+  - sysfsutils
+  - firmware-linux-free 
+  - firmware-misc-nonfree 
+  - firmware-linux
+  - marble
+  - octave
+  - speedcrunch
+  - tmux
+
+text_editors:
+  - vim-gtk
+  - emacs
+
+development:
+  - gitg
+  - zeal
+  - python3-pip
+  - ghc
+  - gcl
+  - gcl-doc
+  - sbcl
+  - sbcl-doc
+
+internet:
+  - thunderbird
+  - thunderbird-l10n-be
+  - enigmail
+  - chromium
+
+graphic:
+  - inkscape
+
+photo:
+  - darktable
+  - digikam
+  - rapid-photo-downloader
+
+video:
+  - vlc
+  - mplayer
+  - ffmpeg
+
+music:
+  - clementine
+  - easytag
+  - audacity
+
+games:
+  - kdegames
+  - supertux
+  - ri-li
+  - gnome-robots
+  - pokerth
+
