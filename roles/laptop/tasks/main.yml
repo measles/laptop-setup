@@ -1,17 +1,7 @@
 ---
 
 - name: Install Software
-  apt: 
-    pkg: "{{ utils + \
-             text_editors + \
-             development + \
-             internet + \
-             graphic + \
-             photo + \
-             video + \
-             music + \
-             games }}"
-    state: latest
-    update_cache: true
-    autoclean: true
-    autoremove: false
+  import_tasks: software_install.yml
+  
+- name: Marble Mouse setup
+  import_tasks: marble_mouse.yml

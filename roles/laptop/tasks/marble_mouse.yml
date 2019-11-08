@@ -1,0 +1,8 @@
+---
+
+- name: Set up trackball driver to have scroll and middle button
+  copy:
+    src: 39-marblemouse.conf
+    dest: /usr/share/X11/xorg.conf.d/
+    force: false
+
