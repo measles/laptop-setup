@@ -5,4 +5,3 @@
     src: 39-marblemouse.conf
     dest: /usr/share/X11/xorg.conf.d/
     force: false
-

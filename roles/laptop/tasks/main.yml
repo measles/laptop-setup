@@ -5,3 +5,6 @@
   
 - name: Marble Mouse setup
   import_tasks: marble_mouse.yml
+
+- name: Git setup
+  import_tasks: git_setup.yml
