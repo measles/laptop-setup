@@ -4,4 +4,6 @@
   copy:
     src: 39-marblemouse.conf
     dest: /usr/share/X11/xorg.conf.d/
+    owner: root
+    group: root
     force: false
