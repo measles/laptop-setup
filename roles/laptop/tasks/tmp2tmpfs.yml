@@ -1,0 +1,11 @@
+---
+
+- name: Set up /tmp to be mounted to tmpfs (requires reboot)
+  mount:
+    src: tmpfs
+    path: /tmp
+    fstype: tmpfs
+    opts: nodev,nosuid,size=2G
+    dump: 0
+    passno: 0
+    state: present
