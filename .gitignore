@@ -1,0 +1,10 @@
+# Vim temporary and swap files
+~*
+.*.swp
+
+# Emacs autosave
+\#*\#
+.\#*
+
+# Ansible retry files
+*.retry
