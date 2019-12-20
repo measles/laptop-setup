@@ -17,6 +17,7 @@ utils:
   - octave
   - speedcrunch
   - tmux
+  - bash-completion
 
 text_editors:
   - vim-gtk
@@ -32,6 +33,10 @@ development:
   - sbcl
   - sbcl-doc
 
+latex:
+  - texlive
+  - texlive-lang-cyrillic
+  
 internet:
   - thunderbird
   - thunderbird-l10n-be

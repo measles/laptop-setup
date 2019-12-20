@@ -4,6 +4,7 @@
   apt: 
     pkg: "{{ utils + \
              text_editors + \
+             latex + \
              development + \
              internet + \
              graphic + \
