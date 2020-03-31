@@ -16,3 +16,13 @@
     update_cache: true
     autoclean: true
     autoremove: false
+    
+- name: Install Debian-specific software
+  apt:
+    pkg: "{{ utils_debian + \
+             internet_debian }}"
+    state: latest
+    update_cache: true
+    autoclean: true
+    autoremove: true
+  when: ansible_facts['distribution'] == "Debian"

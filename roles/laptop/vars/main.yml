@@ -1,6 +1,7 @@
 ---
 
 utils:
+  - zsh
   - mc
   - baobab
   - keepassx
@@ -10,14 +11,16 @@ utils:
   - q4wine
   - winetricks
   - sysfsutils
-  - firmware-linux-free 
-  - firmware-misc-nonfree 
-  - firmware-linux
   - marble
   - octave
   - speedcrunch
   - tmux
   - bash-completion
+  
+utils_debian:
+  - firmware-linux-free 
+  - firmware-misc-nonfree 
+  - firmware-linux
 
 text_editors:
   - vim-gtk
@@ -39,8 +42,10 @@ latex:
   
 internet:
   - thunderbird
-  - thunderbird-l10n-be
   - enigmail
+  
+internet_debian:
+  - thunderbird-l10n-be
   - chromium
 
 graphic:

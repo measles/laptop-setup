@@ -11,3 +11,6 @@
   
 - name: Set up /tmp to tmpfs
   import_tasks: tmp2tmpfs.yml
+  
+- name: Performe set up and fine tuning of ZSH
+  import_tasks: zsh_fine_tuning.yml
