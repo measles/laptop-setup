@@ -9,6 +9,9 @@
 - name: Git setup
   import_tasks: git_setup.yml
   
+- name: Vim setup
+  import_tasks: vim_setup.yml
+  
 - name: Set up /tmp to tmpfs
   import_tasks: tmp2tmpfs.yml
   
