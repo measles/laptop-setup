@@ -13,6 +13,8 @@ set laststatus=2
 
 Bundle "ctrlpvim/ctrlp.vim"
 
+Bundle "Yggdroot/indentLine"
+
 Bundle "scrooloose/syntastic"
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}

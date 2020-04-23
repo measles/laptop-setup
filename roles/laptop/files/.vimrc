@@ -21,5 +21,11 @@ set fileencodings=utf-8,cp1251,koi8-r,cp866
 " інкрэментны пошук
 :set incsearch
 
+" Выкарыстоўваць для LaTeX правілы TeX
+let g:tex_flavor='latex'
+
 " падключаць лакальныя настройкі Vim
 :set exrc
+
+" Настройкі для YAML
+autocmd FileType yaml setlocal et ts=2 ai sw=2 nu sts=0
