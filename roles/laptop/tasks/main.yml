@@ -9,14 +9,14 @@
 - name: Git setup
   import_tasks: git_setup.yml
   
-  - name: Vim setup
-    import_tasks: vim_setup.yml
+- name: Vim setup
+  import_tasks: vim_setup.yml
   
-  - name: Set up /tmp to tmpfs
-    import_tasks: tmp2tmpfs.yml
+- name: Set up /tmp to tmpfs
+  import_tasks: tmp2tmpfs.yml
   
-  - name: Performe set up and fine tuning of ZSH
-    import_tasks: zsh_fine_tuning.yml
+- name: Performe set up and fine tuning of ZSH
+  import_tasks: zsh_fine_tuning.yml
 
 - name: Perform install via snap on Ubuntu
   import_tasks: snap_install.yml
