@@ -10,7 +10,7 @@ endif
 	
 
 setup_debian:
-	@ansible-playbook -i hosts laptop-setup.yml --ask-become-pass --become-method su
+	@ansible-playbook -i hosts laptop-setup.yml --skip-tags "snap" --ask-become-pass --become-method su
 	
 setup_ubuntu:
 	@ansible-playbook -i hosts laptop-setup.yml --ask-become-pass

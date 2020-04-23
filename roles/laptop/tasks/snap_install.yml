@@ -1,0 +1,15 @@
+---
+
+- name: Install PyCharm Professional
+  snap:
+    name: pycharm-professional
+    classic: true
+
+- name: Install Zoom client
+  snap:
+    name: zoom-client
+
+- name: Install Slack client
+  snap:
+    name: slack
+    classic: true

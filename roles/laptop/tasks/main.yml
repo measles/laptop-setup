@@ -17,3 +17,8 @@
   
 - name: Performe set up and fine tuning of ZSH
   import_tasks: zsh_fine_tuning.yml
+
+- name: Perform install via snap on Ubuntu
+  import_tasks: snap_install.yml
+  tags:
+    - snap
