@@ -8,6 +8,7 @@
 - name: Install Zoom client
   snap:
     name: zoom-client
+    classic: true
 
 - name: Install Slack client
   snap:
