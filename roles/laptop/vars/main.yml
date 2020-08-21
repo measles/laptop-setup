@@ -16,6 +16,7 @@ utils:
   - speedcrunch
   - tmux
   - bash-completion
+  - net-tools
   
 utils_debian:
   - firmware-linux-free 
@@ -65,6 +66,7 @@ music:
   - clementine
   - easytag
   - audacity
+  - tuxguitar
 
 games:
   - kdegames
