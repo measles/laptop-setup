@@ -40,6 +40,7 @@ development:
 latex:
   - texlive
   - texlive-lang-cyrillic
+  - texlive-humanities
   
 internet:
   - thunderbird
