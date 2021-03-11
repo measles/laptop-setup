@@ -45,6 +45,7 @@ latex:
 internet:
   - thunderbird
   - enigmail
+  - plasma-browser-integration
   
 internet_debian:
   - thunderbird-l10n-be
