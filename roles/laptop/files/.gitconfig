@@ -13,3 +13,5 @@
 	ch = checkout
 	ps = push
 	pl = pull
+[pull]
+	rebase = true
