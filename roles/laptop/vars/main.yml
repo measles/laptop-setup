@@ -41,6 +41,7 @@ latex:
   - texlive
   - texlive-lang-cyrillic
   - texlive-humanities
+  - cm-super
   
 internet:
   - thunderbird
