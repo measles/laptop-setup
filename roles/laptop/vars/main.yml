@@ -17,6 +17,7 @@ utils:
   - tmux
   - bash-completion
   - net-tools
+  - gramps
   
 utils_debian:
   - firmware-linux-free 
