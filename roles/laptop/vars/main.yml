@@ -18,6 +18,9 @@ utils:
   - bash-completion
   - net-tools
   - gramps
+  - gnucash
+  - gnucash-docs
+  - kookbook
   
 utils_debian:
   - firmware-linux-free 
@@ -30,7 +33,7 @@ text_editors:
 
 development:
   - gitg
-  - zeal
+  #- zeal
   - python3-pip
   - ghc
   - gcl
@@ -42,6 +45,7 @@ latex:
   - texlive
   - texlive-lang-cyrillic
   - texlive-humanities
+  - texlive-latex-extra
   - cm-super
   
 internet:
@@ -71,6 +75,7 @@ music:
   - easytag
   - audacity
   - tuxguitar
+  - musescore
 
 games:
   - kdegames
