@@ -53,6 +53,8 @@ internet:
   - thunderbird
   - enigmail
   - plasma-browser-integration
+  - rclone
+  - rclone-browser
   
 internet_debian:
   - thunderbird-l10n-be
