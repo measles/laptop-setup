@@ -21,6 +21,6 @@
     state: latest
 
 - name: Install Telegram
-  community.general,flatpak:
+  community.general.flatpak:
     name: org.telegram.desktop
     state: latest

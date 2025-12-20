@@ -1,8 +1,13 @@
 ---
 
+- name: Brutally destroy existin gitconfig
+  ansible.builtin.file:
+    path: ~/.gitconfig
+    state: absent
+  become: false
+
 - name: Basic Git settings
   copy:
     src: .gitconfig
     dest: ~/
-    state: link
   become: false
