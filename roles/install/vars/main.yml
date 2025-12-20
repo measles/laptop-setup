@@ -1,0 +1,87 @@
+---
+
+utils:
+  - zsh
+  - mc
+  - baobab
+  - keepassxc-full
+  - qml-module-qtquick-xmllistmodel # for the Weather Widget
+  - yakuake
+  - zim
+  - q4wine
+  - winetricks
+  - sysfsutils
+  - marble
+  - octave
+  - speedcrunch
+  - tmux
+  - bash-completion
+  - net-tools
+  - gramps
+  - gnucash
+  - gnucash-docs
+  - kookbook
+  - flatpak
+  
+utils_debian:
+  - firmware-linux-free 
+  - firmware-misc-nonfree 
+  - firmware-linux
+
+text_editors:
+  - vim-gtk
+  - emacs
+
+development:
+  - gitg
+  - zeal
+  - python3-pip
+  - ghc
+  - gcl
+  - gcl-doc
+  - sbcl
+  - sbcl-doc
+
+latex:
+  - texlive
+  - texlive-lang-cyrillic
+  - texlive-humanities
+  - texlive-latex-extra
+  - cm-super
+  
+internet:
+  - thunderbird
+  - enigmail
+  - plasma-browser-integration
+  
+internet_debian:
+  - thunderbird-l10n-be
+  - chromium
+
+graphic:
+  - inkscape
+
+photo:
+  - darktable
+  - digikam
+  - rapid-photo-downloader
+
+video:
+  - vlc
+  - mplayer
+  - ffmpeg
+
+music:
+  - clementine
+  - easytag
+  - audacity
+  - tuxguitar
+  - musescore
+
+games:
+  - kdegames
+  - supertux
+  - ri-li
+  - gnome-robots
+  - pokerth
+
