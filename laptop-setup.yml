@@ -3,4 +3,15 @@
 - hosts: localhost
   become: true
   roles: 
-    - laptop
+    - install
+      tags: install
+    - flatpak
+      tags: flatpak
+    - git-setup
+      tags: git
+    - vim
+      tags: vim
+    - tmp2tmpfs
+      tags: tmp2tmpfs
+    - zsh
+      tags: zsh
