@@ -1,0 +1,15 @@
+---
+
+- name: Basic Git settings
+  copy:
+    src: .gitconfig
+    dest: ~/
+    state: link
+  become: false
+
+- name: Set up git ignore
+  copy: 
+    src: .gitignore
+    dest: ~/
+    state: link
+  become: false

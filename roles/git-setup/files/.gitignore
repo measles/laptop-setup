@@ -1,0 +1,13 @@
+# Vim temporary and swap files
+~*
+.*.swp
+
+# Emacs autosave
+\#*\#
+.\#*
+
+# Ruby gem-files
+*.gem
+
+# Debian pakages
+*.deb
