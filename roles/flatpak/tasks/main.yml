@@ -1,0 +1,26 @@
+---
+
+- name: Install Logseq
+  community.general.flatpak:
+    name: com.logseq.Logseq 
+    state: latest
+
+- name: Install Spotify
+  community.general.flatpak:
+    name: com.spotify.Client 
+    state: latest
+
+- name: Install DBeaver Community edition
+  community.general.flatpak:
+    name: io.dbeaver.DBeaverCommunity
+    state: latest
+
+- name: Install FreeCAD
+  community.general.flatpak:
+    name: org.freecad.FreeCAD
+    state: latest
+
+- name: Install Telegram
+  community.general.flatpak:
+    name: org.telegram.desktop
+    state: latest

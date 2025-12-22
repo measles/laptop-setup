@@ -4,7 +4,7 @@ utils:
   - zsh
   - mc
   - baobab
-  - keepassx
+  - keepassxc-full
   - qml-module-qtquick-xmllistmodel # for the Weather Widget
   - yakuake
   - zim
@@ -21,6 +21,10 @@ utils:
   - gnucash
   - gnucash-docs
   - kookbook
+  - flatpak
+  - okular
+  - solaar
+  - timeshift
   
 utils_debian:
   - firmware-linux-free 
@@ -29,11 +33,13 @@ utils_debian:
 
 text_editors:
   - vim-gtk
+  - neovim
+  - neovim-qt
   - emacs
 
 development:
   - gitg
-  #- zeal
+  - zeal
   - python3-pip
   - ghc
   - gcl
@@ -52,6 +58,9 @@ internet:
   - thunderbird
   - enigmail
   - plasma-browser-integration
+  - rclone
+  - rclone-browser
+  - remmina
   
 internet_debian:
   - thunderbird-l10n-be
@@ -76,6 +85,9 @@ music:
   - audacity
   - tuxguitar
   - musescore
+  - carla
+  - musescore3
+  - qjackctl
 
 games:
   - kdegames

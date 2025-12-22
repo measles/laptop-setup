@@ -13,5 +13,13 @@
 	ch = checkout
 	ps = push
 	pl = pull
+	fe = fetch
+
+	spu = stash push
+	sls = stash list
+	sap = stash apply
+	spo = stash pop
+	ssh = stash show
+	sdr = stash drop
 [pull]
 	rebase = true
