@@ -22,8 +22,8 @@
   become: false
 
 - name: Get Vundle
-  git:
-    repo: git://github.com/gmarik/vundle.git
+  ansible.builtin.git:
+    repo: "https://github.com/VundleVim/Vundle.vim.git"
     dest: ~/.vim/bundle/vundle
     clone: true
     update: true
