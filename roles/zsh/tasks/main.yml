@@ -30,7 +30,7 @@
   lineinfile:
     path: ~/.zshrc
     regexp: '^ZSH_THEME=' 
-    line: ZSH_THEME="fino`"
+    line: ZSH_THEME="fino"
   become: false
   
 - name: Set ZSH plugins
