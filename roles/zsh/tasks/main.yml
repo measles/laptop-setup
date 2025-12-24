@@ -39,3 +39,16 @@
     regexp: '^plugins=' 
     line: plugins=(command-not-found colored-man-pages)
   become: false
+
+- name: Add shell aliaces file
+  copy:
+    src: shell-aliases
+    dest: ~/.config/
+  become: false
+
+- name: Add aliaces file to zshrc
+  lineinfile:
+    path: ~/.zshrc
+    regexp: '^source $HOME/.config/shell-aliaces'
+    line: source $HOME/.config/shell-aliases
+  become: false
